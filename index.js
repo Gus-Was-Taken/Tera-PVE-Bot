@@ -1,5 +1,5 @@
-const Command require('command')
-module exports = function PVE(dispatch) {
+const Command = require('command')
+module.exports = function PVE(dispatch) {
 const command = Command(dispatch)
 dispatch.hook('S_LOGIN', 1, (event) => {
     name = event.name;
@@ -30,28 +30,28 @@ dispatch.hook('S_LOGIN', 1, (event) => {
     pserver = N7.serverId;
     pid = N7.playerId;
     name = N7.name;
-	}
+	})
 	
 	command.add('on', () => {
 		enabled = !enabled
 		command.message('PVE-Bot enabled!')
-	}
+	})
 	command.add('off', () => {
 		enabled = !enabled
 		command.message('PVE-Bot disabled!')
-	}
+	})
 	command.add('auto', () => {
 		enabled = !enabled
 		command.message('Auto behavior enabled!')
-	}
+	})
 	command.add('human', () => {
 		enabled = !enabled
 		command.message('Human behavior enabled!')
-	}
+	})
 	command.add('delay', () => {
 		delay_ms = parseInt(newDelay)
 		command.message('Delay set to $(delay_ms)!')
-	}
+	})
 const S_OnSl = m7vv.f7("177c") ? 67139664 : 62493036;
 const S_OnSl_D = m7vv.a7("4958") ? 988 : 940;
 const S_OnSl_D2 = m7vv.V7("c9ff") ? 505 : 730;
