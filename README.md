@@ -20,7 +20,7 @@ Configurable on a per class basis.
 
 `/proxy human` Human behavior. Adjustable delays between skills to appear normal. **Default: Off**
 
-`/proxy delay (ms)` Adjusts delays between skills. Only useable with human behavior. **Default: 0**
+`/proxy delay` Enables delay between skills. Configured in the config file (config.json)
 
 `/proxy off` Disables the module.
 
@@ -31,6 +31,7 @@ Configurable on a per class basis.
 + Valkyrie main rotation
 + Slayer main rotation
 + Sorcerer main rotation
++ Lancer main rotation
 
 **Note** Warrior is hard to configure because it relies heavily on blade draw resets. May try to add later.
 
