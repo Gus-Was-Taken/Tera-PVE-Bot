@@ -36,7 +36,7 @@ Configurable on a per class basis.
 
 # Planned
 
-+Warrior rotation. Will try to find a way to implement into the module.
++ Warrior rotation. Will try to find a way to implement into the module.
 
-+Ability to save/load configurations.
++ Ability to save/load configurations.
 
